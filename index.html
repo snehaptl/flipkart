@@ -1,101 +1,475 @@
 <!DOCTYPE html>
 <html lang="en" >
-	<head>
-		<meta charset="UTF-8">
-		<title>Pure CSS Responsive Dropdown Menu</title>
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<nav>
-			<div class="container">
-				<div id="logo">
-					<a class="" href="">
-						<img width="110" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fk-logo_9fddff.png" alt="Flipkart" title="Flipkart">
-					</a>
-				</div>
-				<div class="input-group">
-					<input type="text" class="form-control" placeholder="Search" id="txtSearch">
-					<div class="input-group-btn">
-						<button class="btn btn-primary" type="submit">
-							<svg width="20px" height="20px" viewBox="0 0 17 18" class=""
-								xmlns="http://www.w3.org/2000/svg">
-								<g fill="#2874F1" fill-rule="evenodd">
-									<path class="_2BhAHa" d="m11.618 9.897l4.225 4.212c.092.092.101.232.02.313l-1.465 1.46c-.081.081-.221.072-.314-.02l-4.216-4.203"></path>
-									<path class="_2BhAHa" d="m6.486 10.901c-2.42 0-4.381-1.956-4.381-4.368 0-2.413 1.961-4.369 4.381-4.369 2.42 0 4.381 1.956 4.381 4.369 0 2.413-1.961 4.368-4.381 4.368m0-10.835c-3.582 0-6.486 2.895-6.486 6.467 0 3.572 2.904 6.467 6.486 6.467 3.582 0 6.486-2.895 6.486-6.467 0-3.572-2.904-6.467-6.486-6.467"></path>
-								</g>
-							</svg>
-						</button>
-					</div>
-				</div>
-				<input type="checkbox" id="drop" />
-				<ul class="menu">
-					<li>
-						<a href="#">My Account &or;</a>
-					</li>
-					<li>
-						<a href="#">More &or;</a>
-					</li>
-					<li>
-						<a href="#">Cart</a>
-					</li>
-				</ul>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pure CSS Responsive Dropdown Menu</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+	<nav>
+		<div class="container">
+			<div id="logo">
+				<a class="" href="">
+					<img width="110" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fk-logo_9fddff.png" alt="Flipkart" title="Flipkart">
+				</a>
 			</div>
-		</nav>
-		<nav class="second-nav">
-			<ul class="">
-				<li class="">
-					<a href="" title="Electronics" class="">
-						<span class="">Electronics</span>
-					</a>
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Search" id="txtSearch">
+				<div class="input-group-btn">
+					<button class="btn btn-primary" type="submit">
+						<svg width="20px" height="20px" viewBox="0 0 17 18" class=""
+							xmlns="http://www.w3.org/2000/svg">
+							<g fill="#2874F1" fill-rule="evenodd">
+								<path class="_2BhAHa" d="m11.618 9.897l4.225 4.212c.092.092.101.232.02.313l-1.465 1.46c-.081.081-.221.072-.314-.02l-4.216-4.203"></path>
+								<path class="_2BhAHa" d="m6.486 10.901c-2.42 0-4.381-1.956-4.381-4.368 0-2.413 1.961-4.369 4.381-4.369 2.42 0 4.381 1.956 4.381 4.369 0 2.413-1.961 4.368-4.381 4.368m0-10.835c-3.582 0-6.486 2.895-6.486 6.467 0 3.572 2.904 6.467 6.486 6.467 3.582 0 6.486-2.895 6.486-6.467 0-3.572-2.904-6.467-6.486-6.467"></path>
+							</g>
+						</svg>
+					</button>
+				</div>
+			</div>
+			<input type="checkbox" id="drop" />
+			<ul class="menu">
+				<li>
+					<a href="#">My Account &or;</a>
 				</li>
-				<li class="">
-					<a href="" title="TVs &amp; Appliances" class="">
-						<span class="">TVs &amp; Appliances</span>
-					</a>
+				<li>
+					<a href="#">More &or;</a>
 				</li>
-				<li class="">
-					<a href="" title="Men" class="">
-						<span class="">Men</span>
-					</a>
-				</li>
-				<li class="">
-					<a href="" title="Women" class="">
-						<span class="">Women</span>
-					</a>
-				</li>
-				<li class="">
-					<a href="" title="Baby &amp; Kids" class="">
-						<span class="">Baby &amp; Kids</span>
-					</a>
-				</li>
-				<li class="">
-					<a href="" title="Home &amp; Furniture" class="">
-						<span class="">Home &amp; Furniture</span>
-					</a>
-				</li>
-				<li class="">
-					<a href="" title="Sports, Books &amp; More" class="">
-						<span class="">Sports, Books &amp; More</span>
-					</a>
-				</li>
-				<li class="">
-					<a class="" href="">
-						<span class="">Grocery</span>
-					</a>
-				</li>
-				<li class="">
-					<a class="" href="">
-						<span class="">Offer Zone</span>
-					</a>
+				<li>
+					<a href="#">Cart</a>
 				</li>
 			</ul>
-		</nav>
+		</div>
+	</nav>
+	<nav class="second-nav">
+		<ul class="">
+			<li class="">
+				<a href="" title="Electronics" class="">
+					<span class="">Electronics <img src="img/down arrow.png" style="margin-bottom: -4%;"></span>
+				</a>
+			</li>
+			<li class="">
+				<a href="" title="TVs &amp; Appliances" class="">
+					<span class="">TVs &amp; Appliances <img src="img/down arrow.png" style="margin-bottom: -4%;"></span>
+				</a>
+			</li>
+			<li class="">
+				<a href="" title="Men" class="">
+					<span class="">Men <img src="img/down arrow.png" style="margin-bottom: -4%;"></span>
+				</a>
+			</li>
+			<li class="">
+				<a href="" title="Women" class="">
+					<span class="">Women <img src="img/down arrow.png" style="margin-bottom: -4%;"></span>
+				</a>
+			</li>
+			<li class="">
+				<a href="" title="Baby &amp; Kids" class="">
+					<span class="">Baby &amp; Kids <img src="img/down arrow.png" style="margin-bottom: -4%;"></span>
+				</a>
+			</li>
+			<li class="">
+				<a href="" title="Home &amp; Furniture" class="">
+					<span class="">Home &amp; Furniture <img src="img/down arrow.png" style="margin-bottom: -4%;"></span>
+				</a>
+			</li>
+			<li class="">
+				<a href="" title="Sports, Books &amp; More" class="">
+					<span class="">Sports, Books &amp; More <img src="img/down arrow.png" style="margin-bottom: -4%;"></span>
+				</a>
+			</li>
+			<li class="">
+				<a class="" href="">
+					<span class="">Grocery <img src="img/down arrow.png" style="margin-bottom: -4%;"></span>
+				</a>
+			</li>
+			<li class="">
+				<a class="" href="">
+					<span class="">Offer Zone <img src="img/down arrow.png" style="margin-bottom: -4%;"></span>
+				</a>
+			</li>
+		</ul>
+	</nav>
 		
 		
-		<div class="container-fluid">
-			<div class="side-bar">
-				<h1>Filters</h1>
+	<div class="container-fluid">
+		<div class="side-bar">
+			<h3>Filters</h3>
+			<hr>
+			<p>CATEGORIES</p>
+			<div class="categories">
+				<div>
+					<div>
+						<div class="">
+							<span>
+								<svg width="10" height="10" viewBox="0 0 16 27"
+									xmlns="http://www.w3.org/2000/svg" class="_3OIXYL">
+									<path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class=""></path>
+								</svg>
+							</span>
+							<a class=" " title="Mobiles &amp; Accessories" > > Mobiles &amp; Accessories</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div>
+						<div class="">
+							<span>
+								<svg width="10" height="10" viewBox="0 0 16 27"
+									xmlns="http://www.w3.org/2000/svg" class="_3OIXYL">
+									<path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class=""></path>
+								</svg>
+							</span>
+							<a class=" " title="Mobile Accessories" href=""> > Mobile Accessories</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div>
+						<div class="">
+							<span>
+								<svg width="10" height="10" viewBox="0 0 16 27"
+									xmlns="http://www.w3.org/2000/svg" class="_3OIXYL">
+									<path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class=""></path>
+								</svg>
+							</span>
+							<a class=" " title="Cases &amp; Covers" href=""> > Cases &amp; Covers</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<p>PRICE</p>
+			<div class="slidecontainer">
+				<input type="range" min="1" max="100" value="50" class="slider " >
+			</div>
+			<hr>
+			<label class="containers"><img height="21" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png" class="">
+				<input type="checkbox" checked="checked">
+				<span class="checkmark"></span>
+			</label>
+			<hr>
+			<button class="collapsible">Type <img src="img/down arrow.png" style="margin-bottom: -4%; float:right;"></button>
+			<div class="content">
+				<label class="containers filters-con">
+				<input type="checkbox" checked="checked">
+				<span class="checkmark"></span>
+				</label>
+			</div>
+			<hr>
+			<button class="collapsible">Offer <img src="img/down arrow.png" style="margin-bottom: -4%; float:right;"></button>
+			<div class="content">
+				<label class="containers filters-con">
+				<input type="checkbox" checked="checked">
+				<span class="checkmark"></span>
+				</label>
+			</div>
+			<hr>
+			<button class="collapsible">Features <img src="img/down arrow.png" style="margin-bottom: -4%; float:right;"></button>
+			<div class="content">
+				<label class="containers filters-con">
+				<input type="checkbox" checked="checked">
+				<span class="checkmark"></span>
+				</label>
+			</div>
+			<hr>
+			<button class="collapsible">Brand <img src="img/down arrow.png" style="margin-bottom: -4%; float:right;"></button>
+			<div class="content">
+				<label class="containers filters-con">
+				<input type="checkbox" checked="checked">
+				<span class="checkmark"></span>
+				</label>
+			</div>
+			<hr>
+			<button class="collapsible">Availability <img src="img/down arrow.png" style="margin-bottom: -4%; float:right;"></button>
+			<div class="content">
+				<label class="containers filters-con">
+				<input type="checkbox" checked="checked">
+				<span class="checkmark"></span>
+				</label>
+			</div>
+			<hr>
+			<button class="collapsible">Disounts <img src="img/down arrow.png" style="margin-bottom: -4%; float:right;"></button>
+			<div class="content">
+				<label class="containers filters-con">
+				<input type="checkbox" checked="checked">
+				<span class="checkmark"></span>
+				</label>
 			</div>
 		</div>
-	</body>
+      	<div class="main-content">
+        	<div class="products">
+          		<div class="p-relative bg-white shadow-1 blue-hover outer" >
+					<center>
+						<img src="https://rukminim1.flixcart.com/image/612/612/watch/s/u/e/38003pp05-fastrack-original-imae9j88pwgt3agf.jpeg?q=70" alt="" class="d-block w-full">
+					</center>
+					<div class="px-2 py-2">
+						<p class="mb-0 small font-weight-medium text-uppercase lts-2px" style="padding:0;">
+							Fastrack NG38003PP05C Tees Watch  - For Men & Women
+						</p>
+						<div>
+							<span class="badge">
+								4.2 ★
+							</span>
+							<span class="text-muted special">
+								(13,087)
+							</span>
+							<span class="img">
+								<img height="21" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png" class="">
+							</span>
+						</div>
+						<span class="gap"></span>
+						<span class="price">₹623</span>
+						<span class="old-p">₹780</span>
+						<span class="offer">20% Off</span>
+						<span class="gap"></span>
+						<span class="offer">Offers</span>
+						<span class="fonts">and 2 more</span>
+							
+					</div>
+							
+				</div>
+				<div class="p-relative bg-white shadow-1 blue-hover outer" >
+					<center>
+						<img src="https://rukminim1.flixcart.com/image/612/612/watch/s/u/e/38003pp05-fastrack-original-imae9j88pwgt3agf.jpeg?q=70" alt="" class="d-block w-full">
+					</center>
+					<div class="px-2 py-2">
+						<p class="mb-0 small font-weight-medium text-uppercase lts-2px" style="padding:0;">
+							Fastrack NG38003PP05C Tees Watch  - For Men & Women
+						</p>
+						<div>
+							<span class="badge">
+								4.2 ★
+							</span>
+							<span class="text-muted special">
+								(13,087)
+							</span>
+							<span class="img">
+								<img height="21" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png" class="">
+							</span>
+						</div>
+						<span class="gap"></span>
+						<span class="price">₹623</span>
+						<span class="old-p">₹780</span>
+						<span class="offer">20% Off</span>
+						<span class="gap"></span>
+						<span class="offer">Offers</span>
+						<span class="fonts">and 2 more</span>
+							
+					</div>
+							
+				</div>
+				<div class="p-relative bg-white shadow-1 blue-hover outer" >
+					<center>
+						<img src="https://rukminim1.flixcart.com/image/612/612/watch/s/u/e/38003pp05-fastrack-original-imae9j88pwgt3agf.jpeg?q=70" alt="" class="d-block w-full">
+					</center>
+					<div class="px-2 py-2">
+						<p class="mb-0 small font-weight-medium text-uppercase lts-2px" style="padding:0;">
+							Fastrack NG38003PP05C Tees Watch  - For Men & Women
+						</p>
+						<div>
+							<span class="badge">
+								4.2 ★
+							</span>
+							<span class="text-muted special">
+								(13,087)
+							</span>
+							<span class="img">
+								<img height="21" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png" class="">
+							</span>
+						</div>
+						<span class="gap"></span>
+						<span class="price">₹623</span>
+						<span class="old-p">₹780</span>
+						<span class="offer">20% Off</span>
+						<span class="gap"></span>
+						<span class="offer">Offers</span>
+						<span class="fonts">and 2 more</span>
+							
+					</div>
+							
+				</div>
+				<div class="p-relative bg-white shadow-1 blue-hover outer" >
+					<center>
+						<img src="https://rukminim1.flixcart.com/image/612/612/watch/s/u/e/38003pp05-fastrack-original-imae9j88pwgt3agf.jpeg?q=70" alt="" class="d-block w-full">
+					</center>
+					<div class="px-2 py-2">
+						<p class="mb-0 small font-weight-medium text-uppercase lts-2px" style="padding:0;">
+							Fastrack NG38003PP05C Tees Watch  - For Men & Women
+						</p>
+						<div>
+							<span class="badge">
+								4.2 ★
+							</span>
+							<span class="text-muted special">
+								(13,087)
+							</span>
+							<span class="img">
+								<img height="21" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png" class="">
+							</span>
+						</div>
+						<span class="gap"></span>
+						<span class="price">₹623</span>
+						<span class="old-p">₹780</span>
+						<span class="offer">20% Off</span>
+						<span class="gap"></span>
+						<span class="offer">Offers</span>
+						<span class="fonts">and 2 more</span>
+							
+					</div>
+							
+				</div>
+
+				<div class="p-relative bg-white shadow-1 blue-hover outer" >
+					<center>
+						<img src="https://rukminim1.flixcart.com/image/612/612/watch/s/u/e/38003pp05-fastrack-original-imae9j88pwgt3agf.jpeg?q=70" alt="" class="d-block w-full">
+					</center>
+					<div class="px-2 py-2">
+						<p class="mb-0 small font-weight-medium text-uppercase lts-2px" style="padding:0;">
+							Fastrack NG38003PP05C Tees Watch  - For Men & Women
+						</p>
+						<div>
+							<span class="badge">
+								4.2 ★
+							</span>
+							<span class="text-muted special">
+								(13,087)
+							</span>
+							<span class="img">
+								<img height="21" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png" class="">
+							</span>
+						</div>
+						<span class="gap"></span>
+						<span class="price">₹623</span>
+						<span class="old-p">₹780</span>
+						<span class="offer">20% Off</span>
+						<span class="gap"></span>
+						<span class="offer">Offers</span>
+						<span class="fonts">and 2 more</span>
+							
+					</div>
+							
+				</div>
+
+				<div class="p-relative bg-white shadow-1 blue-hover outer" >
+					<center>
+						<img src="https://rukminim1.flixcart.com/image/612/612/watch/s/u/e/38003pp05-fastrack-original-imae9j88pwgt3agf.jpeg?q=70" alt="" class="d-block w-full">
+					</center>
+					<div class="px-2 py-2">
+						<p class="mb-0 small font-weight-medium text-uppercase lts-2px" style="padding:0;">
+							Fastrack NG38003PP05C Tees Watch  - For Men & Women
+						</p>
+						<div>
+							<span class="badge">
+								4.2 ★
+							</span>
+							<span class="text-muted special">
+								(13,087)
+							</span>
+							<span class="img">
+								<img height="21" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png" class="">
+							</span>
+						</div>
+						<span class="gap"></span>
+						<span class="price">₹623</span>
+						<span class="old-p">₹780</span>
+						<span class="offer">20% Off</span>
+						<span class="gap"></span>
+						<span class="offer">Offers</span>
+						<span class="fonts">and 2 more</span>
+							
+					</div>
+							
+				</div>
+
+				<div class="p-relative bg-white shadow-1 blue-hover outer" >
+					<center>
+						<img src="https://rukminim1.flixcart.com/image/612/612/watch/s/u/e/38003pp05-fastrack-original-imae9j88pwgt3agf.jpeg?q=70" alt="" class="d-block w-full">
+					</center>
+					<div class="px-2 py-2">
+						<p class="mb-0 small font-weight-medium text-uppercase lts-2px" style="padding:0;">
+							Fastrack NG38003PP05C Tees Watch  - For Men & Women
+						</p>
+						<div>
+							<span class="badge">
+								4.2 ★
+							</span>
+							<span class="text-muted special">
+								(13,087)
+							</span>
+							<span class="img">
+								<img height="21" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png" class="">
+							</span>
+						</div>
+						<span class="gap"></span>
+						<span class="price">₹623</span>
+						<span class="old-p">₹780</span>
+						<span class="offer">20% Off</span>
+						<span class="gap"></span>
+						<span class="offer">Offers</span>
+						<span class="fonts">and 2 more</span>
+							
+					</div>
+							
+				</div>
+
+
+				<div class="p-relative bg-white shadow-1 blue-hover outer" >
+					<center>
+						<img src="https://rukminim1.flixcart.com/image/612/612/watch/s/u/e/38003pp05-fastrack-original-imae9j88pwgt3agf.jpeg?q=70" alt="" class="d-block w-full">
+					</center>
+					<div class="px-2 py-2">
+						<p class="mb-0 small font-weight-medium text-uppercase lts-2px" style="padding:0;">
+							Fastrack NG38003PP05C Tees Watch  - For Men & Women
+						</p>
+						<div>
+							<span class="badge">
+								4.2 ★
+							</span>
+							<span class="text-muted special">
+								(13,087)
+							</span>
+							<span class="img">
+								<img height="21" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png" class="">
+							</span>
+						</div>
+						<span class="gap"></span>
+						<span class="price">₹623</span>
+						<span class="old-p">₹780</span>
+						<span class="offer">20% Off</span>
+						<span class="gap"></span>
+						<span class="offer">Offers</span>
+						<span class="fonts">and 2 more</span>
+							
+					</div>
+							
+				</div>
+	
+	
+
+						
+						
+
+						
+        	</div>
+      	</div>
+	</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
 </html>
